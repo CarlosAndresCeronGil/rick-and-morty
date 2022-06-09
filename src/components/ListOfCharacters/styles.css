@@ -1,0 +1,11 @@
+:root {
+    --results-columns: 2
+}
+
+.ListOfCharacters {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0 16px;
+    align-items: center;
+}

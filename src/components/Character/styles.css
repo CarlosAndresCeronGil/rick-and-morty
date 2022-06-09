@@ -1,0 +1,13 @@
+.card {
+    border: 1px solid red;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #282c34;
+    color: white;
+}
+
+img {
+    width: 150px;
+    border-radius: 75px;
+    margin-top: 5px;
+}
