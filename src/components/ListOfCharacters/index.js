@@ -1,4 +1,5 @@
 import Character from "../Character"
+import React from "react"
 import "./styles.css"
 
 export default function ListOfCharacters({ characters }) {
@@ -7,7 +8,7 @@ export default function ListOfCharacters({ characters }) {
             {
                 characters.map(singleCharacter => (
                     <div key={singleCharacter.id}>
-                        <Character name={singleCharacter.name} status={singleCharacter.status} species={singleCharacter.species} image={singleCharacter.image} />
+                        <Character id={singleCharacter.id} name={singleCharacter.name} status={singleCharacter.status} species={singleCharacter.species} image={singleCharacter.image} />
                     </div>
                 ))
             }

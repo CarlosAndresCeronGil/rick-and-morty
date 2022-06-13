@@ -1,0 +1,12 @@
+.DetailCharacter {
+    text-align: center;
+    background-color: #282c34;
+    flex: content;
+    color: aliceblue;
+    padding: 1px;
+}
+
+.DetailCharacter img {
+    width: 300px;
+    border-radius: 10px;
+}

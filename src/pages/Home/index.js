@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import getCharacters from "../../services/getCharacters";
 import ListOfCharacters from "../../components/ListOfCharacters";
+import "./styles.css"
 
 export default function Home() {
 
@@ -14,7 +15,7 @@ export default function Home() {
     }, [])
 
     return (
-        <div>
+        <div className="Home">
             <h1>
                 Home page
             </h1>
